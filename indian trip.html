@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="2.css" />
+    <title>Indian Trip</title>
+</head>
+
+<body>
+    <!--===========Nav Bar=================-->
+    <section class="nav-bar">
+        <div class="logo">Indian Trip</div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </section>
+    
+    <!--===============Banner================-->
+    <section class="banner">
+        <div class="banner-text-item">
+            <div class="banner-heading">
+                <h1>Discover Your Next Indian Adventure!</h1>
+            </div>
+            <form class="form">
+                <input type="text" list="mylist" placeholder="Where would you like to go in India?">
+                <datalist id="mylist">
+                    <option>Delhi</option>
+                    <option>Mumbai</option>
+                    <option>Goa</option>
+                    <option>Kolkata</option>
+                    <option>Bangalore</option>
+                    <option>Jaipur</option>
+                    <option>Kerala</option>
+                    <option>Lucknow</option>
+                </datalist>
+                <input type="date" class="date">
+                <a href="#" class="book">Book</a>
+            </form>
+        </div>
+    </section>
+
+    <!--=========Services===============-->
+    <section class="services">
+        <div class="service-item">
+            <img src="c:\Users\avane\Pictures\Screenshots\Screenshot 2024-09-16 095832.png">
+            <h2>8000+ Local Guides Across India</h2>
+        </div>
+        <div class="service-item">
+            <img src="c:\Users\avane\Pictures\Screenshots\Screenshot 2024-09-16 095910.png">
+            <h2>100% Trusted Tour Agency</h2>
+        </div>
+        
+    </section>
+    <div class="feedback-container"></div>
+        <h1>Did you like this website?</h1>
+        <div class="buttons">
+            <button id="like-btn" class="like" onclick="likeWebsite()">👍 Like <span id="like-count">0</span></button>
+            <button id="dislike-btn" class="dislike" onclick="dislikeWebsite()">👎 Dislike <span id="dislike-count">0</span></button>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <!--==============Places===================-->
+    <section class="places">
+        <div class="places-text">
+            <small>FEATURED TOUR PACKAGES</small>
+            <h2>Favourite Indian Destinations</h2>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="c:\Users\avane\Pictures\Screenshots\Screenshot 2024-09-16 100138.png">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>The Golden Triangle Tour</h2>
+                    <p class="cost">$1870 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 7 Days</p>
+                        <p class="location">✈ Delhi, Agra, Jaipur, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="c:\Users\avane\Pictures\Screenshots\Screenshot 2024-09-16 100230.png">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>The Kerala Backwaters</h2>
+                    <p class="cost">$1870 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 5 Days</p>
+                        <p class="location">✈ Kerala, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="c:\Users\avane\Pictures\Screenshots\Screenshot 2024-09-16 100306.png">
+                    </div>
+                </div>
+
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>Goa Beach Escape</h2>
+                    <p class="cost">$1870 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 4 Days</p>
+                        <p class="location">✈ Goa, India</p>
+                    </div>
+                </div>
+            </div>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===========About Us===============-->
+    <section class="about">
+        <div class="about-img">
+            <div class="img-card">
+                <img src="c:\Users\avane\Pictures\Screenshots\Screenshot 2024-09-16 100552.png">
+            </div>
+        </div>
+        <div class="about-text">
+            <small>ABOUT OUR COMPANY</small>
+            <h2>We are  India Trip Travels Support Company</h2>
+            <p>Embark on an unforgettable journey across India, a land of vibrant traditions and rich history. From the serene backwaters of Kerala to the majestic forts of Rajasthan, experience the diverse landscapes and cultural tapestry of this incredible country</p>
+
+            <label><input type="checkbox" checked>Explore the vibrant culture of India</label>
+            <label><input type="checkbox" checked>Experience the diverse landscapes</label>
+            <label><input type="checkbox" checked>Visit historical monuments and temples</label>
+            <label><input type="checkbox" checked>Enjoy the rich culinary heritage</label>
+            
+            <a href="#">ABOUT US</a>
+        </div>
+    </section>
+
+    <!--===========Footer=================-->
+    <div class="footer">
+        <div class="links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>Offers & Discounts</li>
+                <li>Get Coupon</li>
+                <li>Contact Us</li>
+          <li>  8887847102</li>
+                <li>About</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>New Products</h3>
+            <ul>
+                <li>Woman Cloth</li>
+                <li>Fashion Accessories</li>
+                <li>Man Accessories</li>
+                <li>Rubber Made Toys</li>
+            </ul>
+        </div>
+        <div class="links">
+            <h3>Support</h3>
+            <ul>
+                <li>Frequently Asked Questions</li>
+                <li>Report a Payment Issue</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </div>
+   
+    <link rel="stylesheet" href="2.js" />
+
+</body>
+
+</html>
